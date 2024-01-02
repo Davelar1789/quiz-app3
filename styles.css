@@ -1,14 +1,67 @@
 body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #F4F4F4;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
+
 .quiz-heading {
-    background: #343A40;
-    color: white;
-    text-align: center; 
-    padding: 20px;
+    color: #000080; /* Navy blue for the quiz heading */
 }
+
+.app-body {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White background for the quiz content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.answer-key {
+    color: #000080; /* Navy blue for the answer key */
+}
+
+
+form {
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-bottom: 5px;
+}
+
+.submit {
+    background-color: #000080; /* Navy blue for the submit button */
+    color: #ffffff; /* White text color for the submit button */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #001F3F; /* Darker shade on hover */
+}
+
+#res {
+    color: #000080; /* Navy blue for the result text */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4682b4; /* Steel blue for the restart button */
+    color: #ffffff; /* White text color for the restart button */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a92b4; /* Darker shade on hover */
+}
+
 .question-card {
     background: white;
     max-width: 600px;
@@ -18,16 +71,8 @@ body {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-input {
-    margin: 10px 5px;
-    cursor: pointer;
-}
-.submit {
-    background: #FFC107;
-    border: none;
-    border-radius: 5px;
-    padding: 9px 15px;
-}
+
+
 .next {
     background: #28A745;
     color: white;
@@ -73,22 +118,4 @@ li {
     padding: 0px;
     visibility: hidden;
 }
-.app-body {
-    max-width: 600px;
-    width: 90%;
-    padding: 10px 10px;
-    margin: 0px auto;
-}
-.answer-key {
-    margin: 0px 10px;
-    display: none;
-}
-button {
-    background: #17A2B8;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 9px 15px;
-    margin: 0px 10px;
-    display: none;
-}
+
